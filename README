@@ -4,8 +4,9 @@ Can either be run locally or you can visit the p5.js editor
    - fullscreen demo: https://editor.p5js.org/anthony.innamorato/full/qKH9M5PyI
    - editor with code on side: https://editor.p5js.org/anthony.innamorato/sketches/qKH9M5PyI
 
+python must be installed to run .py and simple http server
 to run locally, run cleanData.py to create the clean.csv
-then (if python is installed) simple http server can be run with python -m http.server
+then simple http server can be run with python -m http.server
 then visit localhost:8000
 
 Acknowledgements:
