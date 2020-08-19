@@ -63,8 +63,8 @@ function draw() {
 
   for (let i = 0; i < LOC_TO_CASES.length; i+=3) {
     //map size of circles and alpha vals based on how many cases
-    let cirSize = map(LOC_TO_CASES[i+2], 1, 250000, 5, 750)
-    let alpha = map(LOC_TO_CASES[i+2], 1, 250000, 100, 255)
+    let cirSize = map(LOC_TO_CASES[i+2], 1, 500000, 5, 600)
+    let alpha = map(LOC_TO_CASES[i+2], 1, 500000, 100, 255)
     fill(255, 0, 0, alpha)
     circle(LOC_TO_CASES[i], LOC_TO_CASES[i+1], cirSize)
   }
